@@ -39,6 +39,14 @@ packageVersion("croaked")
 
 ```
 
+```{r ex-01}
+available_products()
+
+all_details("macos")
+
+cycle_details("python", "3.9")
+```
+
 ## croaked Metrics
 
 ```{r cloc, echo=FALSE}

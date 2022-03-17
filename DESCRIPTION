@@ -1,6 +1,6 @@
 Package: croaked
 Type: Package
-Title: croaked Title Goes Here Otherwise CRAN Checks Fail
+Title: Tools to Query the endoflife.date Service
 Version: 0.1.0
 Date: 2022-03-17
 Authors@R: c(
@@ -8,11 +8,13 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: The endoflife.date site is a community-maintained project to document 
+    end-of-life dates, and support lifecycles of various products. Tools are provided to
+    query this end-of-life metadata.
 URL: https://git.rud.is/hrbrmstr/croaked
 BugReports: https://git.rud.is/hrbrmstr/croaked/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests:
     tinytest
 Depends:
